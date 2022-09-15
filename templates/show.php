@@ -3,8 +3,6 @@ style('souvenirs', 'style');
 script('souvenirs', 'vue-index');
 ?>
 
-<div id="album-parent-frame">
-	<album path="<?php p($_['apath']) ?>">
-	</album>
+<div id="album-parent-frame" data-path="<?php p($_['apath']) ?>">
 </div>
 
